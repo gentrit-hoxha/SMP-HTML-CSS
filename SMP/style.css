@@ -1,0 +1,401 @@
+body{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 15px; 
+    color: #73787e; 
+    background-color: #f9f8f6;
+    margin: 0;
+    padding: 0;
+}
+
+#main, #content{
+    width: 99%;
+    height: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px double black;
+    border-bottom: 1px solid black;
+}
+
+
+#slogan {
+    padding: 10px 10px 10px 30px;
+}
+
+#first{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#second{
+  width: 850px;
+  height: 100px;
+  float: right;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+ul {
+    padding-top: 20px;
+    word-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 0.2em ;
+}
+.nav{
+    color: teal;
+}
+
+a.nav:hover, a.nav:focus {
+    background-color: teal;
+    color: white;
+    border: 0;
+    padding: 19px;
+}
+
+#login_content {
+    width: 99%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EAECEE ;
+
+}
+
+#login, #Sing_Up {
+    font-size: 16px;
+    float: right;
+    color: teal;
+    padding: 10px;
+}
+
+#login:hover, #Sing_Up:hover{
+    color: red;
+    background-color: cornflowerblue;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+}
+
+#p_footer{
+    
+    text-align: center;
+    font-size: larger;
+    padding-top: 10px;
+    color: black;
+
+}
+#footer {
+    width: 99%;
+    background-color:lightblue;
+    height: 50px;
+    margin-top: -18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  #heading_ballina{
+     background-color: darkslategray;
+     color: white;
+     width: 500px;
+     height: 45px;
+     margin-left: 35px;
+     padding-left: 10px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+
+    #p_ballina{
+       text-align: left;
+       width: 800px;
+       color: black;
+       text-align: justify; 
+       font-family: Arvo;
+       padding-left: 100px;
+       word-spacing: 3px;
+    }
+
+
+#container {
+    margin: 0px auto;
+    width: 900px;
+ }
+
+ th {
+     height: 50px; 
+     text-transform: uppercase;
+     font-weight: bolder;
+     letter-spacing: 0.2em;
+     border-top: 2px solid black;
+     border-bottom: 1px solid black;
+     font-size: 22px;
+     color: black;
+     font-weight: bolder;
+     padding: 0px 20px;
+     background-color: lightsteelblue;
+     text-align: left;
+ }
+ 
+ tr, td {
+     padding: 10px;
+     width: 100px;
+     font-size: 18px;
+
+    }
+
+
+
+ tr{
+     background-color: rgb(192, 243, 111);
+ }
+    #even {
+    background-color:lightyellow;
+ }
+
+ tr:hover, #even:hover {
+     background-color: crimson;
+     color: white;
+ }
+
+
+
+ td {
+     width: 100px;
+ }
+
+ #main-table {
+     margin-left: -80px;
+ }
+
+
+ /*Login*/
+
+ 
+#login_fieldset {
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border: 1px dotted gray;
+}
+
+legend{
+        width: 200px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+        text-align: left;
+        margin-left: 20px;
+         border: 0;
+         color: white;
+         background-color: cadetblue;
+         font-weight: bolder;
+         border-radius: 10px;
+}
+
+label{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 22px;
+    color: black;
+     padding-top: 40px;
+     padding-left: 25px;
+}
+
+input[type="text"], input[type="password"] {
+
+    text-align: left;
+    padding: 5px;
+    margin-left: 15px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Alata;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    margin-left: 300px;
+    border: 0;
+    font-family: Arvo;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+  /*Login*/
+
+
+  /*Sing Up Form*/
+  #singup_fieldset {
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    border: 1px dotted gray;
+}
+
+legend{
+        width: 200px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+        text-align: left;
+        margin-left: 20px;
+         border: 0;
+         color: white;
+         background-color: cadetblue;
+         font-weight: bolder;
+         border-radius: 10px;
+}
+
+label{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 22px;
+    color: black;
+     padding-top: 40px;
+     padding-left: 25px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+
+    text-align: left;
+    padding: 5px;
+    margin-left: 15px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Alata;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    margin-left: 300px;
+    border: 0;
+    font-family: Arvo;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: black;
+}
+/*Sing Up Form*/
+
+
+/*Why Smp*/
+  #function_smp {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+#why{
+    font-size: 20px;
+    color: black;
+    display: block;
+    list-style-type: disc;    
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+
+.ul_why{
+    list-style-type: square;
+}
+/*Why SMP*/
+
+
+
+
+/* Projects */
+
+   #project_placeholder {
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+     #project1, #project2, #project3, #project4 {
+         width:  280px;
+         height: 500px;
+         border: 1px dotted gray;
+         background-color: honeydew;
+         float: left;
+         margin: 5px 2px 0 2px;
+     }
+
+     .img_project1, .img_project2, .img_project3, .img_project4 {
+        width: 260px;
+        height: 300px;
+        padding: 11px;
+     }
+
+     #project_title{
+         color: black;
+         font-size: 18px;
+         height: 10px;
+         text-align: center;
+
+     }
+
+     #hr_project{
+         border: 2px solid black;
+         width: 230px;
+     }
+
+     #project_description{
+         padding: 10px 10px 10px 30px;
+         color: black;
+         text-align: left;
+         letter-spacing: 0.1em;
+     }
+
+     #a_link_project{
+         
+         font-size: 17px;
+         text-align: right;
+         float: right;
+         color: teal;
+         
+     }
+
+     #a_link_project:hover {
+         color : orangered;
+
+         
+     }
